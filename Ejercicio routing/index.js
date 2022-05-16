@@ -15,7 +15,7 @@ http.createServer((req, res) => {
         } catch (error) {
             res.writeHead(404, { "Content-Type": "text/html" });
             console.error(error);
-            return res.end("404 Not Found");
+            return res.end("404 Not Found, pon arriba a donde quierees iiiir (o_o)");
         }
     });
 }).listen(8080);
